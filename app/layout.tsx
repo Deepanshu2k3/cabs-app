@@ -22,8 +22,12 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={outfit.className}>
-          <NavBar />
+          <NavBar  />
           {children}
+
+         <div className="ml-6 mt-8">
+          <h3>Developed by <a className="underline" href="https://github.com/deepanshu2k3">Deepanshu</a> </h3>
+         </div>
         </body>
       </html>
     </ClerkProvider>

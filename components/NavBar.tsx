@@ -11,19 +11,19 @@ function NavBar() {
     isSignedIn && (
       <div
         className="flex justify-between
-     p-3 px-10 border-b-[1px] shadow-sm"
+     p-3 px-10 border-b-[1px] shadow-sm bg-yellow-600"
       >
         <div className="flex gap-10 items-center">
           <Image src="/logo.png" alt="logo" width={120} height={60} />
           <div className="hidden md:flex gap-6">
             <h2
-              className="hover:bg-gray-100 p-2
+              className="hover:bg-black p-2
                 rounded-md cursor-pointer transition-all "
             >
               Home
             </h2>
             <h2
-              className="hover:bg-gray-100 p-2
+              className="hover:bg-black p-2
                 rounded-md cursor-pointer transition-all"
             >
               History
