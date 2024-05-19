@@ -17,7 +17,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // const [userLoacation, serUserLocation] = useState();
+  //const [userLoacation, serUserLocation] = useState();
   return (
     <ClerkProvider>
       <html lang="en">
@@ -28,7 +28,7 @@ export default function RootLayout({
          <div className="ml-6 mt-8">
           <h3>Developed by <a className="underline" href="https://github.com/deepanshu2k3">Deepanshu</a> </h3>
          </div>
-        </body>
+        </body>   
       </html>
     </ClerkProvider>
   );
